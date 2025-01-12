@@ -10,8 +10,6 @@ const StatsSection = () => {
     { title: "Revenue", amount: 742, percentage: 200, color: "#08B1BA" },
     { title: "Net Income", amount: 150, percentage: 170, color: "#3A57E8" },
     { title: "Today", amount: 4600, percentage: 120, color: "#08B1BA" },
-    // { title: "Another", amount: "$600", percentage: 20, color: "#3A57E8" },
-    // { title: "Something", amount: "$700K", percentage: 10, color: "#08B1BA" },
   ];
 
   return (
@@ -43,23 +41,6 @@ const StatsSection = () => {
           </Card>
         ))}
       </div>
-      {/* <Carousel opts={{ align: "start", loop: true }}>
-        <CarouselContent>
-          {stats.map((stat) => (
-            <CarouselItem key={stat.title} className="lg:basis-1/6">
-              <Card>
-                <CardContent className="flex flex-1 items-center gap-6 pt-6">
-                  <RadialStat />
-                  <div>
-                    <p className="text-color-2">{stat.title}</p>
-                    <p className="h5 mt-4">{stat.value}</p>
-                  </div>
-                </CardContent>
-              </Card>
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-      </Carousel> */}
     </section>
   );
 };
