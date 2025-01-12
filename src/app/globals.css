@@ -86,3 +86,41 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .text-color-1 {
+    @apply text-[#232D42];
+  }
+
+  .text-color-2 {
+    @apply text-[#8A92A6];
+  }
+
+  .text-color-3 {
+    @apply text-[#ADB5BD];
+  }
+
+  .h1 {
+    @apply text-5xl font-medium;
+  }
+
+  .h2 {
+    @apply text-[2.5rem] font-medium;
+  }
+
+  .h3 {
+    @apply text-[1.75rem] font-medium;
+  }
+
+  .h4 {
+    @apply text-[1.43rem] font-medium;
+  }
+
+  .h5 {
+    @apply text-[1.18rem] font-medium;
+  }
+
+  .h6 {
+    @apply text-base font-medium;
+  }
+}
