@@ -13,15 +13,17 @@ import ArrowUpRight from "../icons/arrow-up-right";
 interface Props {
   percentage: number;
   amount: number;
+  color: string;
 }
 
-export default function RadialStat({ percentage, amount }: Props) {
+export default function RadialStat({ percentage, amount, color }: Props) {
   const chartData = [{ amount, fill: "var(--color-amount)" }];
 
   const chartConfig = {
     amount: {
       label: "Amount",
-      color: "hsl(var(--chart-2))",
+      // color: "hsl(var(--chart-2))",
+      color,
     },
   } satisfies ChartConfig;
 
