@@ -22,9 +22,9 @@ const EarningsSection = (props: ComponentPropsWithoutRef<"section">) => {
           </div>
         </CardHeader>
         <CardContent>
-          <div className="flex flex-wrap items-center gap-5">
+          <div className="flex flex-col flex-wrap items-center justify-center gap-5 xl:flex-row">
             <RadialEarnings />
-            <div className="my-auto space-y-10">
+            <div className="my-auto flex gap-10 xl:flex-col">
               <div className="flex items-center gap-5">
                 <div className="h-[13px] w-[13px] rounded-full bg-[#3A57E8]" />
                 <div className="space-y-1">
