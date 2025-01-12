@@ -5,12 +5,42 @@ import { ComponentPropsWithoutRef } from "react";
 
 const StatsSection = (props: ComponentPropsWithoutRef<"section">) => {
   const stats = [
-    { title: "Total Sales", amount: 560, percentage: 340, color: "#3A57E8" },
-    { title: "Total Profit", amount: 185, percentage: 300, color: "#08B1BA" },
-    { title: "Total Cost", amount: 375, percentage: 250, color: "#3A57E8" },
-    { title: "Revenue", amount: 742, percentage: 200, color: "#08B1BA" },
-    { title: "Income", amount: 150, percentage: 170, color: "#3A57E8" },
-    { title: "Today", amount: 460, percentage: 120, color: "#08B1BA" },
+    {
+      title: "Total Sales",
+      amount: 560,
+      percentage: 340,
+      color: "hsl(var(--primary))",
+    },
+    {
+      title: "Total Profit",
+      amount: 185,
+      percentage: 300,
+      color: "hsl(var(--secondary))",
+    },
+    {
+      title: "Total Cost",
+      amount: 375,
+      percentage: 250,
+      color: "hsl(var(--primary))",
+    },
+    {
+      title: "Revenue",
+      amount: 742,
+      percentage: 200,
+      color: "hsl(var(--secondary))",
+    },
+    {
+      title: "Income",
+      amount: 150,
+      percentage: 170,
+      color: "hsl(var(--primary))",
+    },
+    {
+      title: "Today",
+      amount: 460,
+      percentage: 120,
+      color: "hsl(var(--secondary))",
+    },
   ];
 
   return (
