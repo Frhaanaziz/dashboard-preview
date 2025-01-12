@@ -13,8 +13,8 @@ const StatsSection = () => {
   ];
 
   return (
-    <section className="h-[200px] rounded-b-2xl bg-[url(/images/graphic-slide.png)] bg-cover px-8 pt-4">
-      <div className="mb-8 sm:mb-14">
+    <section>
+      <div className="h-[200px] rounded-b-2xl bg-[url(/images/graphic-slide.png)] bg-cover px-8 pt-4">
         <div className="flex items-start justify-between">
           <h1 className="h3 sm:h2">Hello Devs!</h1>
           <div className="self hidden items-center gap-4 rounded bg-white/10 px-6 py-2 shadow-lg backdrop-blur sm:flex">
@@ -28,7 +28,7 @@ const StatsSection = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-6">
+      <div className="-mt-10 grid grid-cols-1 gap-10 px-8 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-6">
         {stats.map((stat) => (
           <Card key={stat.title}>
             <CardContent className="flex flex-1 items-center gap-6 pt-6">
