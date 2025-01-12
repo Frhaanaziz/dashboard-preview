@@ -17,7 +17,7 @@ const StatsSection = () => {
       <div className="h-[200px] rounded-b-2xl bg-[url(/images/graphic-slide.png)] bg-cover px-8 pt-4">
         <div className="flex items-start justify-between">
           <h1 className="h3 sm:h2">Hello Devs!</h1>
-          <div className="self hidden items-center gap-4 rounded bg-white/10 px-6 py-2 shadow-lg backdrop-blur sm:flex">
+          <div className="hidden sm:flex sm:items-center sm:gap-4 sm:rounded sm:bg-white/10 sm:px-6 sm:py-2 sm:shadow-lg sm:backdrop-blur">
             <Voice />
             <p>Announcments</p>
           </div>
