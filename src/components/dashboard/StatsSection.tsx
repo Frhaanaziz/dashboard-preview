@@ -1,19 +1,20 @@
 import Voice from "@/components/icons/voice";
 import { Card, CardContent } from "@/components/ui/card";
 import RadialStat from "../charts/RadialStat";
+import { ComponentPropsWithoutRef } from "react";
 
-const StatsSection = () => {
+const StatsSection = (props: ComponentPropsWithoutRef<"section">) => {
   const stats = [
     { title: "Total Sales", amount: 560, percentage: 340, color: "#3A57E8" },
     { title: "Total Profit", amount: 185, percentage: 300, color: "#08B1BA" },
     { title: "Total Cost", amount: 375, percentage: 250, color: "#3A57E8" },
     { title: "Revenue", amount: 742, percentage: 200, color: "#08B1BA" },
-    { title: "Net Income", amount: 150, percentage: 170, color: "#3A57E8" },
-    { title: "Today", amount: 4600, percentage: 120, color: "#08B1BA" },
+    { title: "Income", amount: 150, percentage: 170, color: "#3A57E8" },
+    { title: "Today", amount: 460, percentage: 120, color: "#08B1BA" },
   ];
 
   return (
-    <section>
+    <section {...props}>
       <div className="h-[200px] rounded-b-2xl bg-[url(/images/graphic-slide.png)] bg-cover px-8 pt-4">
         <div className="flex items-start justify-between">
           <h1 className="h3 sm:h2">Hello Devs!</h1>
