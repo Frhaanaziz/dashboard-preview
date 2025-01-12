@@ -20,7 +20,7 @@ export default function DashboardLayout({ children }: Props) {
     <SidebarProvider>
       <DashboardSidebar />
       <SidebarInset>
-        <header className="sticky top-0 flex shrink-0 items-center justify-between bg-sidebar px-8 py-4">
+        <header className="sticky top-0 z-10 flex shrink-0 items-center justify-between bg-sidebar px-8 py-4">
           <div className="flex items-center gap-2">
             <div className="flex items-center gap-2">
               <SidebarTrigger />
