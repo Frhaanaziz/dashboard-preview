@@ -176,9 +176,6 @@ export default function DashboardSidebar({
         <DashboardNavMain items={data.navMain} />
         <DashboardNavProjects projects={data.projects} />
       </SidebarContent>
-      {/* <SidebarFooter>
-        <DashboardNavUser user={data.user} />
-      </SidebarFooter> */}
     </Sidebar>
   );
 }
