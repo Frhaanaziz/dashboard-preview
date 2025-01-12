@@ -1,3 +1,4 @@
+import ConversionsSection from "@/components/dashboard/ConversionsSection";
 import EarningsSection from "@/components/dashboard/EarningsSection";
 import GrossSalesSection from "@/components/dashboard/GrossSalesSection";
 import StatsSection from "@/components/dashboard/StatsSection";
@@ -13,10 +14,10 @@ const Page = () => {
 
           <div className="lg:grid lg:grid-cols-10 lg:gap-10">
             <EarningsSection className="lg:col-span-5" />
-            <div className="col-span-5 mt-10 lg:mt-0"></div>
+            <ConversionsSection className="col-span-5 mt-10 lg:mt-0" />
           </div>
         </div>
-        <div className="col-span-4"></div>
+        {/* <div className="col-span-4"></div> */}
       </div>
     </>
   );
