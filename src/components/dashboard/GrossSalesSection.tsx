@@ -16,11 +16,11 @@ const GrossSalesSection = (props: ComponentPropsWithoutRef<"section">) => {
 
             <div className="my-auto flex items-center gap-4">
               <div className="flex items-center gap-2">
-                <div className="h-[13px] w-[13px] rounded-full bg-[#3A57E8]" />
+                <div className="h-[13px] w-[13px] rounded-full bg-primary" />
                 <p className="text-color-4">Sales</p>
               </div>
               <div className="flex items-center gap-2">
-                <div className="h-[13px] w-[13px] rounded-full bg-[#85F4FA]" />
+                <div className="h-[13px] w-[13px] rounded-full bg-secondary" />
                 <p className="text-color-4">Cost</p>
               </div>
             </div>

@@ -22,7 +22,6 @@ export default function RadialStat({ percentage, amount, color }: Props) {
   const chartConfig = {
     amount: {
       label: "Amount",
-      // color: "hsl(var(--chart-2))",
       color,
     },
   } satisfies ChartConfig;

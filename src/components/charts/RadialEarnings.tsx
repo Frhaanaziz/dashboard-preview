@@ -18,11 +18,11 @@ const RadialEarnings = () => {
   const chartConfig = {
     fashion: {
       label: "Fashion",
-      color: "#3A57E8",
+      color: "hsl(var(--primary))",
     },
     accessories: {
       label: "Accessories",
-      color: "#08B1BA",
+      color: "hsl(var(--secondary))",
     },
   } satisfies ChartConfig;
 
@@ -42,7 +42,7 @@ const RadialEarnings = () => {
         <ChartTooltip
           content={<ChartTooltipContent hideLabel nameKey="type" />}
         />
-        <RadialBar dataKey="amount" background cornerRadius={10} fill="#fff" />
+        <RadialBar dataKey="amount" background cornerRadius={10} />
       </RadialBarChart>
     </ChartContainer>
   );

@@ -21,13 +21,11 @@ const chartData = [
 const chartConfig = {
   sales: {
     label: "Sales",
-    // color: "hsl(var(--chart-1))",
-    color: "#3A57E8",
+    color: "hsl(var(--primary))",
   },
   cost: {
     label: "Cost",
-    // color: "hsl(var(--chart-2))",
-    color: "#85C5FA",
+    color: "hsl(var(--secondary))",
   },
 } satisfies ChartConfig;
 

@@ -26,14 +26,14 @@ const EarningsSection = (props: ComponentPropsWithoutRef<"section">) => {
             <RadialEarnings />
             <div className="my-auto flex gap-10 xl:flex-col">
               <div className="flex items-center gap-5">
-                <div className="h-[13px] w-[13px] rounded-full bg-[#3A57E8]" />
+                <div className="h-[13px] w-[13px] rounded-full bg-primary" />
                 <div className="space-y-1">
                   <p className="text-color-4">Sales</p>
                   <p className="text-color-2">251K</p>
                 </div>
               </div>
               <div className="flex items-center gap-5">
-                <div className="h-[13px] w-[13px] rounded-full bg-[#85F4FA]" />
+                <div className="h-[13px] w-[13px] rounded-full bg-secondary" />
                 <div className="space-y-1">
                   <p className="text-color-4">Accessories</p>
                   <p className="text-color-2">251K</p>

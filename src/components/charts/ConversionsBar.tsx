@@ -18,13 +18,13 @@ const ConversionsBar = () => {
     { month: "June", desktop: 214, mobile: 138 },
   ];
   const chartConfig = {
-    desktop: {
-      label: "Desktop",
-      color: "#85F4FA",
-    },
     mobile: {
       label: "Mobile",
-      color: "#3A57E8",
+      color: "hsl(var(--primary))",
+    },
+    desktop: {
+      label: "Desktop",
+      color: "hsl(var(--secondary))",
     },
   } satisfies ChartConfig;
 
